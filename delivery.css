@@ -1,0 +1,30 @@
+ /* Style the video: 100% width and height to cover the entire window */
+ #deliveryVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* width: 100vh; */
+    height: 100vh;
+   /*  display: none; */
+  }
+  
+.contenedor{
+    /* border: solid 3px black; */
+    height: 700px;
+    width: 1300px;
+    margin: 50px;
+    background:rgba(0, 0, 0, 0.5);
+    position: inherit;
+    position: fixed;
+    
+
+}
+
+.gracias{
+    color: white;
+    text-align: center;
+
+}
+.scoot{
+    width: 100px;
+}
