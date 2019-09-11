@@ -1,0 +1,78 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+.contentContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 285px;
+
+}
+
+  .titulo{
+justify-content: flex-start;
+margin-bottom: 30px;
+  }
+
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+
+  .username{
+      /* border: solid 2px black; */
+      display: flex;
+    align-content: space-around;
+  }
+
+
+.contrasena{
+   /*  border: solid 2px black; */
+   margin-top: 15px;
+}
+
+.direccion{
+   /*  border: solid 2px black; */
+   margin-top: 15px;
+}
+  
+.btn{
+margin-top: 10px;
+
+}
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
