@@ -1,0 +1,82 @@
+
+#fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* min-width: 100%; */
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-content: space-between;
+  }
+.gris{
+    /* border: solid 3px gray; */
+    width: 280px;
+    position: fixed;
+    height: 550px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center
+}
+.logo{
+    text-align: center;
+    margin: 50px;
+    width: 285px;
+    margin-top: 10px;
+
+}
+.gracias{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    
+}
+h1{
+    font-size: 25px;
+}
+.scooter{
+    width: 90px;
+
+    margin-top: 5px;
+}
+h2{
+    font-size: 20px;
+}
+
+.iden{
+    margin-top: 10px;
+}
+.padre {
+    justify-content: center;
+    margin-top: 150px;
+}
+.log{
+    width: 250px;
+}
+.check{
+    width: 40px;
+
+}
+.che{
+    margin-top: 5px;
+}
+
+.orden{
+    margin-top: 20px;
+}
+.pepe{
+    margin-top: 20px;
+}
+h3{
+    font-style: italic;
+}
+
+.lc{
+    width: 200px;
+}

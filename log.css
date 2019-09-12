@@ -6,7 +6,24 @@
     min-width: 100%;
     min-height: 100%;
   }
+
+  .barra{
+      position: fixed;
+      justify-content: flex-end;
+  }
   
+.registro{
+    position: fixed;
+    display: flex;
+    align-content: space-around;
+}
+
+.login{
+    position: fixed;
+    display: flex;
+    align-content: space-around;
+}
+
 .contentContainer {
     display: flex;
     height: 100vh;
@@ -16,7 +33,11 @@
 
 .logo{
     width: 285px;
+    margin-top: 10px;
+}
 
+#face{
+    margin-bottom: 20px;
 }
 
   .titulo{
@@ -33,8 +54,8 @@ margin-bottom: 30px;
     justify-content: center;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 480px;
     padding: 20px;
     flex-direction: column;
     border-radius: 8px;
@@ -50,6 +71,10 @@ margin-bottom: 30px;
 .contrasena{
    /*  border: solid 2px black; */
    margin-top: 15px;
+}
+
+.telefono{
+    margin-top: 15px;
 }
 
 .direccion{
@@ -75,4 +100,15 @@ margin-top: 10px;
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+  .noV{
+      display: none;
+  }
+
+  #Nav{
+      position: fixed;
+      width: 100vw;
+      display: flex;
+      justify-content: flex-end;
   }
