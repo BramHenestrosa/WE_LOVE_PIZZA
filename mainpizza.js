@@ -13,9 +13,9 @@ let accion = document.getElementById("accion")
 
 const datos = () => {
 
-    nombreText.innerHTML=nombre.value;
-    telefonoText.innerHTML=telefono.value;
-    direccionText.innerHTML=direccion.value;
+    // nombreText.innerHTML=nombre.value;
+    // telefonoText.innerHTML=telefono.value;
+    // direccionText.innerHTML=direccion.value;
 
     let resultPizza = ingrediente.value;
     let pizzaFinal = resultPizza.toUpperCase();

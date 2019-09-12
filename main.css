@@ -6,6 +6,11 @@ nav{
 
 .main{
 
-    background:linear-gradient(0deg, rgb(94, 5, 4),rgb(253, 19, 61))
+    background:linear-gradient(0deg, rgb(133, 133, 133),rgb(230, 230, 230));
+    height:100vh
+}
+
+.perro{
+    position: inherit !important;
 }
 
