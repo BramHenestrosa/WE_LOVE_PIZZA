@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700,900&display=swap');
+
+
+
 nav{
 
     background-color: #000;
@@ -6,11 +10,86 @@ nav{
 
 .main{
 
-    background:linear-gradient(0deg, rgb(133, 133, 133),rgb(230, 230, 230));
-    height:100vh
+    background-color: rgb(34, 34, 34);
+    height:100vh;
 }
 
 .perro{
     position: inherit !important;
 }
 
+
+.customeBienvenidos{
+    
+    font-size: 25px;
+    color: rgb(38, 38, 38);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.CustomPizza{
+
+    font-size: 40px;
+    font-kerning: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px #000;
+   
+    
+
+}
+
+
+.CustomSub{
+
+    font-size: 30px;
+    font-kerning: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px #000;
+}
+
+/* .customFondo{
+
+background-color: black;
+width: 100%;
+
+} */
+
+.customCuerpo{
+
+background-color: rgb(34, 34, 34);
+}
+
+.content {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    flex-direction: column;
+    border-radius: 0px;
+    margin-top: 200px;
+}
+
+.logoLC {
+
+height: 50px;
+
+}
+
+
+.logoPJ {
+
+    height: 50px;
+    
+    }
