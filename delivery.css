@@ -77,6 +77,24 @@ h3{
     font-style: italic;
 }
 
-.lc{
+#pepeDom{
     width: 200px;
+}
+#pepeHut{
+    width: 200px;
+}
+#pepeLit{
+    width: 200px;
+}
+#hawaDom{
+    width: 200px;
+}
+#hawaHut{
+    width: 200px;
+}
+#hawaLit{
+    width: 200px;
+}
+.noVisible{
+    display: none;
 }

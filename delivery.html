@@ -17,25 +17,30 @@
     <main>
         <!-- The video -->
         <video autoplay muted loop id="fondo">
-            <source src="./coverr-girl-eats-pizza-1563957998818.mp4" type="video/mp4">
+            <source src="./imagenes/coverr-girl-eats-pizza-1563957998818.mp4" type="video/mp4">
         </video>
         <div class="padre d-flex justify-content-center felx-column ">
             <section class="gris">
                 <article class="logo">
-                    <img class="log" src="./logo.png" alt="logo">
+                    <img class="log" src="./imagenes/logo.png" alt="logo">
                     <div class="gracias">
                         <h1>Gracias por tu pedido!</h1>
-                        <div class="che"><img class="check" src="./check.png" alt="check">
+                        <div class="che"><img class="check" src="./imagenes/check.png" alt="check">
                             <div class="orden">
                                 <h2>Tu orden va en camino.</h2>
                                 <div class="iden">
-                                    <h3>Charlie Botones</h3>
+                                    <h3 id="vacio"></h3>
                                     <div class="pepe">
-                                        <h2>Pizza Clasica Pepperoni LC</h2>
-                                        <div>
-                                            <img class="lc" src="./pepe domino.jpg" alt="LC">
+                                        <h2 id="vacio2"></h2>
+                                        <div id="vacio3">
+                                            <img src="./imagenes/pepe domino.jpg" id="pepeDom" class="noVisible" alt="LC">
+                                            <img src="./imagenes/pepe hut.jpg" id ="pepeHut" class="noVisible" alt="PH">
+                                            <img src="./imagenes/pepe little.jpg" id="pepeLit" class="noVisible" alt="PL">
+                                            <img src="./imagenes/hawa domi.jpg" id="hawaDom" class="noVisible" alt="HD">
+                                            <img src="./imagenes/hawa hut.jpg" id="hawaHut" class="noVisible" alt="HH">
+                                            <img src="./imagenes/hawa little.jpg" id="hawaLit" class="noVisible" alt="HL">
                                             <div>
-                                                <div> <img class="scooter" src="./scooter(1).png" alt="entrega">
+                                                <div> <img class="scooter" src="./imagenes/scooter(1).png" alt="entrega">
 
                                                 </div>
                                             </div>
@@ -61,6 +66,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="./delivery.js"></script>
+        <script src="./log.js" ></script>
 </body>
 
 </html>
