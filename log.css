@@ -163,22 +163,25 @@ align-items: space-around;
 
 .c1 {
     display: flex;
-    
+    margin-top: 120px;
     /* justify-content: space-around; */
 }
 
 .c2{
     display: flex;
+    margin-top: 60px;
     /* justify-content: space-around; */
 }
 
 .c3{
     display: flex;
+    margin-top: 60px;
     /* justify-content: space-around; */
 }
 
 .c4{
     display: flex;
+    margin-top: 60px;
 }
 
 .tp{
