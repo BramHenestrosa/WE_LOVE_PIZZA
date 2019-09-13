@@ -176,3 +176,14 @@ align-items: space-around;
     display: flex;
     /* justify-content: space-around; */
 }
+
+.c4{
+    display: flex;
+}
+
+.tp{
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin top: 15px;
+}
