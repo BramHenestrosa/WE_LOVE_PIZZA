@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,700,900&display=swap');
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
@@ -112,3 +113,66 @@ margin-top: 10px;
       display: flex;
       justify-content: flex-end;
   }
+
+
+  #patern{
+      background-image: url(./fondo.png);
+      
+  }
+
+ 
+
+  .PP{
+    
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  .profile{
+      width: 90px;
+      align-content: flex-end;
+  }
+h2{
+display: flex;
+align-items: space-around;
+}
+  .pn{
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  /* .dl{
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+
+  .pago{
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    display: flex;
+    align-content: space-around;
+  } */
+
+.c1 {
+    display: flex;
+    
+    /* justify-content: space-around; */
+}
+
+.c2{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.c3{
+    display: flex;
+    /* justify-content: space-around; */
+}
