@@ -7,7 +7,7 @@ let login = document.getElementById("button-addon2 log");
 console.log(login)
 
 const doLogin = () => {
-    if (username.value === 'charliebotones' && contrasena.value === 'wichodesponemacs') {
+    if (username.value === 'charliebotones' && contrasena.value === 'wuichodesponemacs') {
 
         acceso.classList.remove('noV')
         login.classList.add('noV')
